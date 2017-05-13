@@ -8,7 +8,7 @@ Created on Sat May 13 12:39:56 2017
 import cv2
 import numpy as np
 
-img = cv2.imread('lemons.jpeg',0)
+img = cv2.imread('lemons.jpeg',0)                         //read as gray
 
 img = cv2.medianBlur(img,5)
 cimg = cv2.cvtColor(img,cv2.COLOR_GRAY2BGR)
