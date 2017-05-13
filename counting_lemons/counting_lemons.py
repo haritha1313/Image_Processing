@@ -13,7 +13,7 @@ a=time.clock()
 img = cv2.imread('lemons.jpeg')
 
 hsv= cv2.cvtColor(img, cv2.COLOR_BGR2HSV )
-lower_yellow = np.array([20,0,0])
+lower_yellow = np.array([20,0,0])                       #range for yellow-green
 upper_green=np.array([70,255,255])
     
 mask=cv2.inRange(hsv, lower_yellow, upper_green)
