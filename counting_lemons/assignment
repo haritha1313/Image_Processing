@@ -1,0 +1,10 @@
+Count the number of lemons in the given image
+
+Steps taken:
+
+Filtering using inrange (yellow-green)
+Blurring the image to reduce noise
+Marking circles using hough circles
+Counting number of circles
+
+Program execution completed in 16 ms.
